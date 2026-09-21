@@ -230,5 +230,15 @@ const HAIKUS = [
       "Slaying a god in his wake.",
       "\"Enryu\" was his name."
     ]
+  },
+  {
+    "id": "balls",
+    "title": "Balls",
+    "image": "images/balls-1790011890888.jpg",
+    "lines": [
+      "Balls",
+      "Balls",
+      "Balls"
+    ]
   }
 ];
