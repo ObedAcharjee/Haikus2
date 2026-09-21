@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haikus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loading spinner -->
+  <div class="spinner" id="loading-spinner">
+    <div class="spinner-inner"></div>
+  </div>
+
+  <header>
+    <div class="container">
+      <h1>Haikus</h1>
+      <p class="subtitle">
+        Haiku is a type of short-form poetry that originated in Japan. <br>Traditional Japanese haiku consists of three phrases composed of 17 syllables in a 5, 7, 5 pattern.
+      </p>
+      <p class="subtitle">
+        There is more to Haikus than just adhering to the syllable count; however, I have decided to take a different approach and base mine on feelings, emotions, or observations.
+      </p>
+      <p class="subtitle note">
+        Tap on the images to download the haiku as an img file.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Cards are rendered here from HAIKUS (see haikus-data.js) by script.js -->
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>All haikus written by yours truly, L.B.</p>
+    </div>
+  </footer>
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.1.3/dom-to-image-more.min.js"></script>
+  <!-- Haiku data, then the renderer -->
+  <script src="haikus-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
